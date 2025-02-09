@@ -4,7 +4,6 @@ import { signOutUser } from "@/lib/actions/user.actions";
 import { Button } from "@/components/ui/button";
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
 import { UserIcon } from "lucide-react";
-import NotFoundPage from '../../../app/not-found';
 
 
 const UserButton = async () => {
