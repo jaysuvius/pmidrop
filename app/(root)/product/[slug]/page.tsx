@@ -1,5 +1,4 @@
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import ProductPrice from "@/components/shared/product/product-price";
 import { getProductBySlug } from "@/lib/actions/product.actions";
@@ -7,7 +6,6 @@ import { notFound } from "next/navigation";
 import ProductImages from "@/components/shared/product/product-images";
 import AddToCart from "@/components/shared/product/add-to-cart"
 import { getMyCart } from "@/lib/actions/cart.actions";
-import { Cart } from '../../../../types/index';
 
 
 
